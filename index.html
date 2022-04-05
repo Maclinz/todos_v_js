@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <form action="" class="todo-form">
+                <input type="text" class="f-input" placeholder="Task Name..." required>
+                <button class="sub-btn">+ Add todo</button>
+            </form>
+            <form action="" class="search-form">
+                <input type="text" class="search-input" placeholder="Search Items...">
+            </form>
+        </header>
+
+        <main>
+            <div class="todo-container">
+                <ul class="todos">
+                    <li class="todo-item">
+                        <span class="todo-text">
+                            Clean The Room
+                        </span>
+                        <i class="fa-solid fa-trash delete"></i>
+                    </li>
+                    <li class="todo-item">
+                        <span class="todo-text">
+                            Read at least 2 chapters.
+                        </span>
+                        <i class="fa-solid fa-trash delete"></i>
+                    </li>
+                    <li class="todo-item">
+                        <span class="todo-text">
+                            Call Anna on Thursday night!
+                        </span>
+                        <i class="fa-solid fa-trash delete"></i>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
